@@ -9,10 +9,17 @@
 <body>
     <div class="container">
         <h1>DNA Sequence Viewer</h1>
-        <textarea id="dnaInput" placeholder="Enter DNA sequence here..."></textarea>
+        <textarea id="dnaInput" placeholder="Enter DNA sequence here..." rows="5"></textarea>
         <button id="analyzeBtn">Analyze</button>
-        <div id="results"></div>
+
+        <div id="results">
+            <h2>Results</h2>
+            <p id="gcContent"></p>
+            <p id="motifs"></p>
+            <p id="restrictionSites"></p>
+        </div>
     </div>
+
     <script src="script.js"></script>
 </body>
 </html>
